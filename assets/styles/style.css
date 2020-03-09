@@ -39,6 +39,10 @@ header {
   color: white;
 }
 
+.col {
+  padding: 0;
+}
+
 .navbar-date {
   text-decoration: none;
   color: white;
@@ -50,9 +54,11 @@ header {
 
 .navbar-col-subscribe {
   align-self: flex-end;
+  padding: 0 0 10px 0;
 }
 
 .navbar-col-subscribe .row {
+  justify-content: center;
   align-items: center;
   font-weight: bold;
   font-stretch: normal;
