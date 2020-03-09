@@ -83,14 +83,19 @@ header {
   color: #f72210;
 }
 
-@media (min-width: 766px) {
+@media (min-width: 801px) {
   .mobile {
     display: none;
   }
 }
 
+@media (max-width: 760px) {
+  .navbar-col-date .row > a > span, .navbar-col-subscribe .row > a > span {
+    display: none;
+  }
+}
 
-@media (min-width: 319px) and (max-width: 765px) {
+@media (min-width: 319px) and (max-width: 800px) {
 
   .desktop {
     display: none;
@@ -137,5 +142,53 @@ header {
   .navbar-logo {
     height: 2rem;
     width: 9rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 800px) {
+  .desktop {
+    display: none;
+  }
+
+  .navbar {
+    width: 100%;
+    padding: 0 5px;
+  }
+
+  .navbar-col-subscribe {
+    align-self: auto;
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .navbar-col-subscribe .row {
+    letter-spacing: 0px;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .navbar-col-subscribe .row > a {
+    padding: 0 10px;
+  }
+
+  .navbar-col-subscribe .row > a:last-child {
+    padding: 6px 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+
+  .navbar-col-logo {
+    width: 10%;
+  }
+
+  .navbar-col-date {
+    max-width: 100%;
+  }
+
+}
+
+@media  (min-width: 1000px) and (max-width: 1366px) {
+  .navbar {
+    width: 100%;
   }
 }
