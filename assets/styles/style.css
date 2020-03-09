@@ -82,3 +82,21 @@ header {
   background-color: white;
   color: #f72210;
 }
+
+@media (min-width: 319px) and (max-width: 765px) {
+  .navbar {
+    width: 100%;
+  }
+  .navbar-col-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar-col-date, .navbar-col-subscribe{
+    display: none;
+  }
+  .navbar-logo {
+    height: 3rem;
+    width: 14rem;
+  }
+}
