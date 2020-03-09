@@ -1,6 +1,24 @@
+body {
+  background-color: #F4F4F4;
+}
+
+header {
+  background-color: red;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  background-color: #F4F4F4;
+}
 
 .navbar {
   background-color: red;
+  width: 75%;
+}
+
+.navbar-brand {
+  margin-right: 5rem;
 }
 
 .navbar-logo {
@@ -13,8 +31,12 @@
   background-repeat: no-repeat;
 }
 
-.navbar-col-date {
-  max-width: 25%;
+.navbar-col-date .row {
+  justify-content: center;
+}
+
+.navbar-col-date .row p {
+  color: white;
 }
 
 .navbar-date {
@@ -22,11 +44,35 @@
   color: white;
 }
 
-.navbar-col-subscribe {
-  max-width: 25%;
+.navbar-date > img {
+  width: 25px;
 }
 
-.navbar-col-subscribe > .row > a:first-child {
+.navbar-col-subscribe {
+  align-self: flex-end;
+}
+
+.navbar-col-subscribe .row {
+  align-items: center;
+  font-weight: bold;
+  font-stretch: normal;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.navbar-col-subscribe .row > a {
+  padding: 0;
+  margin: 0;
   text-decoration: none;
   color: white;
+}
+
+.navbar-col-subscribe > .row > a:last-child {
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 6px 13px;
+  margin-left: 10px;
+  background-color: white;
+  color: #f72210;
 }
