@@ -1,0 +1,32 @@
+
+.navbar {
+  background-color: red;
+}
+
+.navbar-logo {
+  display: inline-block;
+  background-image: url(https://cdn.freebiesupply.com/logos/large/2x/newsweek-logo-black-and-white.png);
+  height: 5rem;
+  width: 35rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar-col-date {
+  max-width: 25%;
+}
+
+.navbar-date {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-col-subscribe {
+  max-width: 25%;
+}
+
+.navbar-col-subscribe > .row > a:first-child {
+  text-decoration: none;
+  color: white;
+}
