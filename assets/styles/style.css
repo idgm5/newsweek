@@ -195,10 +195,35 @@ main {
   background-image: url(https://d.newsweek.com/en/full/1573029/harvey-weinstein.jpg?w=397&h=265&q=90&f=e07c773270df7762a138c8065477a8b1);
 }
 
+.main-news-featured-image-5 {
+  background-image: url(https://d.newsweek.com/en/full/1571853/canary-islands.jpg?w=500&h=333&f=b94c2aba248d70dab7bae00e2fd8c54c);
+}
+
+.main-news-featured-image-6 {
+  background-image: url("https://d.newsweek.com/en/full/1567276/synergy-executive.png?w=500&h=333&f=e6fd82b7f70041bcbbe5be256d74024f");
+}
+
+.main-news-featured-image-7 {
+  background-image: url("https://d.newsweek.com/en/full/1562518/teach-now-2.jpg?w=500&h=333&f=7f31c4b3b8b35c9c592b5eb054f8a367");
+}
+
+.main-news-featured-image-8 {
+  background-image: url("https://d.newsweek.com/en/full/1570615/nw-james-bond-banner-sponsored.jpg?w=500&h=333&f=547001b6968bad8dcee8cf938a4c68ed");
+}
+
+.main-news-featured-image-9 {
+  background-image: url("https://d.newsweek.com/en/full/1568509/newsweek-amplify.png?w=500&h=333&f=98c0ebfc554597997a0de3bd6159812a");
+}
+
 .main-news-featured-image,
 .main-news-featured-image-2,
 .main-news-featured-image-3,
-.main-news-featured-image-4 {
+.main-news-featured-image-4,
+.main-news-featured-image-5,
+.main-news-featured-image-6,
+.main-news-featured-image-7,
+.main-news-featured-image-8,
+.main-news-featured-image-9 {
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -213,6 +238,20 @@ main {
   text-transform: uppercase;
   padding: 8px 15px 9px;
   background-color: rgba(255,255,255,.9);
+}
+
+.main-news-featured-sponsor {
+  border-left: 1px solid #C8C7C6;
+  border-right: 1px solid #C8C7C6;
+  border-bottom: 1px solid #C8C7C6;
+  margin-bottom: 15px;
+  padding: 0 10px;
+}
+
+.no-padding {
+  margin: 0 -10px;
+  width: calc(100% + 20px);
+  margin-bottom: 10px;
 }
 
 @media (min-width: 801px) {
