@@ -219,6 +219,10 @@ main {
   background-image: url("https://d.newsweek.com/en/full/1573108/north-korea-coronavirus-covid-19-disease.jpg?w=591&h=364&f=7e5637ca337c31fa3518a6dbcae2bff0");
 }
 
+.main-news-featured-image-latest-1 {
+  background-image: url("https://d.newsweek.com/en/full/1571941/newsweek-blue-gif-02seg-export.gif?w=500&h=333&f=5340b20a1b0aa18a821cb282be7853e9");
+}
+
 .main-news-featured-image,
 .main-news-featured-image-2,
 .main-news-featured-image-3,
@@ -228,7 +232,8 @@ main {
 .main-news-featured-image-7,
 .main-news-featured-image-8,
 .main-news-featured-image-9,
-.main-news-featured-image-top{
+.main-news-featured-image-top,
+.main-news-featured-image-latest-1{
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -332,7 +337,9 @@ main {
 }
 
 .debate-red > span,
-.debate-blue > span {
+.debate-blue > span,
+.bottom-border-col,
+.bottom-border-col-latest {
     content: "";
     display: block;
     background-color: #d9d9d9;
@@ -341,6 +348,10 @@ main {
     bottom: -10px;
     left: 0;
     right: 0;
+}
+
+.bottom-border-col {
+  bottom: 5px;
 }
 
 .debate-span {
@@ -384,6 +395,18 @@ main {
   border-top: 5px solid blue;
 }
 
+.latest-news-container {
+  margin-bottom: 20px;
+}
+
+.latest-news-span {
+  margin-top: 0;
+  font: bold 17px/16px "Roboto Condensed",sans-serif;
+  color: #3581f4;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  background-color: rgba(255,255,255,.9);
+}
 @media (min-width: 801px) {
   .mobile {
     display: none;
