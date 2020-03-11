@@ -327,6 +327,63 @@ main {
   font-weight: bold;
 }
 
+.debate-red {
+  border-top: 5px solid red;
+}
+
+.debate-red > span,
+.debate-blue > span {
+    content: "";
+    display: block;
+    background-color: #d9d9d9;
+    height: 1px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+}
+
+.debate-span {
+  bottom: -20px !important;
+}
+
+.debate-profile {
+  margin-right: 4px;
+  position: relative;
+  z-index: 1;
+  height: 60px;
+  width: 60px;
+  margin-top: -40px;
+}
+
+.debate-profile-container {
+  margin-top: 25px;
+  justify-content: space-between;
+}
+
+.debate-profile-container > p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #333;
+  text-transform: uppercase;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+.vs {
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/40px "Roboto Condensed",sans-serif;
+  text-align: center;
+  margin: 14px auto 18px;
+}
+
+.debate-blue {
+  border-top: 5px solid blue;
+}
+
 @media (min-width: 801px) {
   .mobile {
     display: none;
