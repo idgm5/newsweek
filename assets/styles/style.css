@@ -178,8 +178,27 @@ main {
   line-height: 20px;
   margin-top: 10px;
 }
+
 .main-news-featured-image {
   background-image: url(https://d.newsweek.com/en/full/1573043/piazza-san-marco-coronavirus-venice-march-2020.jpg?w=397&h=265&q=90&f=19711cbf93d55a1828dba2aae0130505);
+}
+
+.main-news-featured-image-2 {
+  background-image: url(https://d.newsweek.com/en/full/1572994/russian-president-vladimir-putin.jpg?w=397&h=265&q=90&f=1875d4e53b974e0b8a6e1901fc444ca8);
+}
+
+.main-news-featured-image-3 {
+  background-image: url(https://d.newsweek.com/en/full/1572929/sanders-gets-endorsement-rev-jackson.jpg?w=397&h=265&q=90&f=112d67d9138b381d07a0309255bbd89d);
+}
+
+.main-news-featured-image-4 {
+  background-image: url(https://d.newsweek.com/en/full/1573029/harvey-weinstein.jpg?w=397&h=265&q=90&f=e07c773270df7762a138c8065477a8b1);
+}
+
+.main-news-featured-image,
+.main-news-featured-image-2,
+.main-news-featured-image-3,
+.main-news-featured-image-4 {
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -187,7 +206,7 @@ main {
   margin-bottom: 15px;
 }
 
-.main-news-featured-image > div > span {
+.main-news-featured span {
   margin-top: 195px;
   font: bold 17px/16px "Roboto Condensed",sans-serif;
   color: #f72210;
