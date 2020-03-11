@@ -267,6 +267,33 @@ main {
   margin-bottom: 10px;
 }
 
+.main-news-culture {
+  width: 494px;
+}
+
+.main-news-culture-container{
+  margin: 0 15px;
+}
+
+.main-news-culture-text > a {
+  font: 20px/22px "Lora",serif;
+}
+
+.main-news-culture-text > p {
+  font: 15px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
+  color: rgba(39,39,39,.5);
+  margin-bottom: 10px;
+}
+
+.main-news-culture-text > div {
+  height: 151px;
+  width: 151px;
+}
+
+.span-image-culture {
+  margin-top: 118px !important;
+}
+
 @media (min-width: 801px) {
   .mobile {
     display: none;
