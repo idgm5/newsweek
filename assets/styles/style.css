@@ -215,6 +215,10 @@ main {
   background-image: url("https://d.newsweek.com/en/full/1568509/newsweek-amplify.png?w=500&h=333&f=98c0ebfc554597997a0de3bd6159812a");
 }
 
+.main-news-featured-image-top {
+  background-image: url("https://d.newsweek.com/en/full/1573108/north-korea-coronavirus-covid-19-disease.jpg?w=591&h=364&f=7e5637ca337c31fa3518a6dbcae2bff0");
+}
+
 .main-news-featured-image,
 .main-news-featured-image-2,
 .main-news-featured-image-3,
@@ -223,12 +227,21 @@ main {
 .main-news-featured-image-6,
 .main-news-featured-image-7,
 .main-news-featured-image-8,
-.main-news-featured-image-9 {
+.main-news-featured-image-9,
+.main-news-featured-image-top{
   background-position: center;
   background-size: cover;
   width: 100%;
   height: 228px;
   margin-bottom: 15px;
+}
+
+.main-news-featured-image-top {
+  height: 304px;
+}
+
+.span-image-top {
+  margin-top: 271px !important;
 }
 
 .main-news-featured span {
