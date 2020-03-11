@@ -223,6 +223,10 @@ main {
   background-image: url("https://d.newsweek.com/en/full/1571941/newsweek-blue-gif-02seg-export.gif?w=500&h=333&f=5340b20a1b0aa18a821cb282be7853e9");
 }
 
+.main-news-featured-image-latest-2 {
+  background-image: url("https://d.newsweek.com/en/full/1572014/worlds-best-hospitals-2020.png?w=500&h=333&f=c871e2709e79f9ba030be976797f7aa2");
+}
+
 .main-news-featured-image,
 .main-news-featured-image-2,
 .main-news-featured-image-3,
@@ -233,7 +237,8 @@ main {
 .main-news-featured-image-8,
 .main-news-featured-image-9,
 .main-news-featured-image-top,
-.main-news-featured-image-latest-1{
+.main-news-featured-image-latest-1,
+.main-news-featured-image-latest-2 {
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -407,6 +412,11 @@ main {
   padding: 8px 15px 9px;
   background-color: rgba(255,255,255,.9);
 }
+
+.newsletter {
+  padding: 0 13%;
+}
+
 @media (min-width: 801px) {
   .mobile {
     display: none;
