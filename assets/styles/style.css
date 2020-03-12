@@ -8,7 +8,6 @@ header {
 
 main {
   display: flex;
-  justify-content: center;
 }
 
 .card {
@@ -421,6 +420,21 @@ main {
 }
 
 @media (min-width: 319px) and (max-width: 800px) {
+
+  .main-news {
+    display: block;
+  }
+
+  .first-col-mobile {
+    margin-top: 1rem;
+  }
+
+  .container-fluid {
+    width: 100% !important;
+    padding:0;
+    margin-right: auto;
+    margin-left: auto;
+  }
 
   .desktop {
     display: none;
