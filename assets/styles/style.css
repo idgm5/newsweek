@@ -14,6 +14,51 @@ main {
   width: 1334px;
 }
 
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font: bold 19px/19px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.magazine-content > .card-body {
+  padding: 1.25rem 0;
+}
+
+.magazine-content > .card-body > .card-text,
+h5 {
+  margin-bottom: 20px;
+  font: bold 19px/19px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  color: black;
+}
+
+h5 {
+  color: red;
+}
+
+.span-magazine {
+  padding: 0 7px;
+  background-color: #f72210;
+  color: white;
+  margin-right: 7px;
+}
+
+.icon-magazine {
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+
+.magazine-title {
+  display: flex;
+  justify-content: center;
+}
 .card {
   display: block !important;
   margin-bottom: 10px;
@@ -233,6 +278,10 @@ main {
   background-image: url("https://d.newsweek.com/en/full/1572014/worlds-best-hospitals-2020.png?w=500&h=333&f=c871e2709e79f9ba030be976797f7aa2");
 }
 
+.main-news-featured-image-magazine {
+  background-image: url("https://d.newsweek.com/en/full/1572460/march-13-2020.jpg?w=360&h=480&q=90&f=ad8bcd416008653896e9439fe96e4c47");
+}
+
 .main-news-featured-image,
 .main-news-featured-image-2,
 .main-news-featured-image-3,
@@ -244,7 +293,8 @@ main {
 .main-news-featured-image-9,
 .main-news-featured-image-top,
 .main-news-featured-image-latest-1,
-.main-news-featured-image-latest-2 {
+.main-news-featured-image-latest-2,
+.main-news-featured-image-magazine {
   background-position: center;
   background-size: cover;
 }
