@@ -1,0 +1,84 @@
+<div class="card" style="width: 18rem;">
+  <div class="col main-news-featured">
+      <div class="main-news-featured-image-2">
+        <div class="d-flex justify-content-start">
+          <span>world</span>
+        </div>
+      </div>
+    <a href="https://www.newsweek.com/russia-vladimir-putin-duma-presidency-1491664">Russia Passes Bill Allowing Putin to Stay as President Past 2024</a>
+    <p>The legislation needs to be approved by Russia's Constitutional Court and will go to a referendum on April 22.</p>
+  </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+  <div class="col main-news-featured">
+      <div class="main-news-featured-image-3">
+        <div class="d-flex justify-content-start">
+          <span>u.s.</span>
+        </div>
+      </div>
+    <a href="https://www.newsweek.com/bernie-sanders-supporters-keep-faith-after-disappointing-super-tuesday-2-results-hes-down-hes-1491554">Sanders Supporters Keep the Faith After Disappointing Super Tuesday 2</a>
+    <p>Many of his supporters say he should stay in the race—there are still over 1,000 delegates up for grabs and soon more progressive states like New York will have the opportunity to weigh in.</p>
+  </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+  <div class="col main-news-featured">
+      <div class="main-news-featured-image-4">
+        <div class="d-flex justify-content-start">
+          <span>news</span>
+        </div>
+      </div>
+    <a href="https://www.newsweek.com/harvey-weinstein-metoo-sentence-1491703">Harvey Weinstein Speaks as Judge Imposes 23-Year Prison Sentence</a>
+    <p>A Manhattan jury convicted Weinstein on two felony sex charges, while acquitting him on a more serious rape charge and two counts of predatory sexual assault.</p>
+  </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+  <div class="col main-news-featured main-news-featured-sponsor">
+      <div class="main-news-featured-image-5  no-padding">
+        <div class="d-flex justify-content-start">
+          <span>sponsored insight</span>
+        </div>
+      </div>
+    <a href="https://pubads.g.doubleclick.net/gampad/clk?id=5319973196&iu=/43459271/newsweek/homepage">Canary Islands: Setting the Pace in Sustainability</a>
+    <p>These Spanish islands off the west coast of Africa, have long prospered from their unique geographical position. Along with a subtropical climate, clear skies and stunning landscapes, the archipelago benefits from the political stability and the open, democratic culture of Europe. Over the centuries the islands have become a natural staging point for travelers and  traders on their way to and from three continents and the Canaries remain open to modern business, investments and tourists alike.</p>
+  </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+  <div class="col main-news-featured main-news-featured-sponsor">
+      <div class="main-news-featured-image-6  no-padding">
+        <div class="d-flex justify-content-start">
+          <span>sponsored insight</span>
+        </div>
+      </div>
+    <a href="https://www.newsweek.com/insights/leading-dependency-treatment-2020">Who Leads the Field in Dependency Treatment in 2020?</a>
+    <p>When seeking guidance on beating an addiction, there are many things to consider. Where do you go to ensure that you will not just turn the corner, but keep carrying on down the right road for the rest of your life? Find out more.</p>
+  </div>
+  </div>
+    <div class="card" style="width: 18rem;">
+  <div class="col main-news-featured main-news-featured-sponsor">
+      <div class="main-news-featured-image-7  no-padding">
+        <div class="d-flex justify-content-start">
+          <span>sponsored insight</span>
+        </div>
+      </div>
+    <a href="https://www.newsweek.com/insights/leading-teacher-education-programs-2020">Embark on a Career in Teaching With a Leading School</a>
+    <p>Teachers are more in demand than ever, and the rewards for a career as an educator are numerous and generous. Find out how to get involved.</p>
+  </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+  <div class="col main-news-featured main-news-featured-sponsor">
+      <div class="main-news-featured-image-8  no-padding">
+        <div class="d-flex justify-content-start">
+          <span>sponsored insight</span>
+        </div>
+      </div>
+    <a href="https://pubads.g.doubleclick.net/gampad/clk?id=5315870386&iu=/43459271/newsweek/homepage">Newsweek James Bond Special Edition</a>
+    <p>Agent 007 claimed a spot as the world’s coolest spy since Sean Connery brought him to life on the big screen. Explore Bond’s legacy with the Newsweek Special Edition, featuring behind-the-scenes photos from the films and your complete guide to every Bond Girl, villain and getaway car in the canon.</p>
+  </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+  <div class="col main-news-featured main-news-featured-sponsor">
+      <div class="main-news-featured-image-9  no-padding"></div>
+    <a href="https://www.newsweek.com/amplify/mediakit">Newsweek AMPLIFY Launches Strategic Partnership Solutions for Brands</a>
+    <p>Newsweek AMPLIFY, the company's independent business unit, has launched a new program to empower digital brands with comprehensive content marketing and advertising strategies.</p>
+  </div>
+    </div>

@@ -11,6 +11,11 @@ main {
   justify-content: center;
 }
 
+.card {
+  display: block !important;
+  margin-bottom: 10px;
+}
+
 .navbar-container {
   display: flex;
   justify-content: center;
@@ -19,7 +24,7 @@ main {
 
 .navbar {
   background-color: red;
-  width: 75%;
+  width: 1334px;;
 }
 
 .navbar-brand {
@@ -109,7 +114,7 @@ main {
 
 .navbar-categories-link {
   color: black !important;
-  font-size: 19px;
+  font-size: 18px;
   line-height: 27px;
   font-weight: bold;
   font-family: "Roboto Condensed",sans-serif;
@@ -150,7 +155,7 @@ main {
 
 .main-news {
   padding: 30px 30px;
-  width: 75%;
+  width: 1334px;
   background-color: white;
   display: flex;
 }
@@ -162,7 +167,7 @@ main {
   padding-bottom: 11px;
 }
 
-.main-news-featured > a {
+.main-news-featured > .card-body > .card-title {
   text-decoration: none;
   font-weight: 700;
   color: black;
@@ -171,7 +176,7 @@ main {
   line-height: 24px;
 }
 
-.main-news-featured > p {
+.main-news-featured > .card-body > .card-text {
   font-family: Arial,Helvetica,sans-serif;
   color: #333;
   font-size: 15px;
@@ -241,9 +246,6 @@ main {
 .main-news-featured-image-latest-2 {
   background-position: center;
   background-size: cover;
-  width: 100%;
-  height: 228px;
-  margin-bottom: 15px;
 }
 
 .main-news-featured-image-top {
@@ -264,44 +266,33 @@ main {
 }
 
 .main-news-featured-sponsor {
-  border-left: 1px solid #C8C7C6;
-  border-right: 1px solid #C8C7C6;
-  border-bottom: 1px solid #C8C7C6;
   margin-bottom: 15px;
   padding: 0 10px;
 }
 
-.no-padding {
-  margin: 0 -10px;
-  width: calc(100% + 20px);
-  margin-bottom: 10px;
+.card-culture {
+  margin: 0 10px;
 }
-
 .main-news-culture {
   margin-bottom: 10px
 }
 
-.main-news-culture-container{
-  margin: 0 15px;
-}
-
-.main-news-culture-text > a {
+.main-news-culture-text > .card-body > .card-title {
   font: 20px/22px "Lora",serif;
 }
 
-.main-news-culture-text > p {
+.main-news-culture-text > .card-body > .card-text {
   font: 15px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
   color: rgba(39,39,39,.5);
   margin-bottom: 10px;
 }
 
-.main-news-culture-text > div {
-  height: 151px;
-  width: 151px;
-}
-
 .span-image-culture {
   margin-top: 118px !important;
+}
+
+.card-more-stories {
+    border-color: transparent
 }
 
 .more-stories-text > div {
@@ -414,7 +405,7 @@ main {
 }
 
 .newsletter {
-  padding: 0 13%;
+  width: 334px;
 }
 
 @media (min-width: 801px) {
