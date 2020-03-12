@@ -1,13 +1,17 @@
 body {
   background-color: #F4F4F4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
   background-color: red;
+  width: 100%;
 }
 
 main {
-  display: flex;
+  width: 1334px;
 }
 
 .card {
@@ -23,7 +27,7 @@ main {
 
 .navbar {
   background-color: red;
-  width: 1334px;;
+  width: 1334px;
 }
 
 .navbar-brand {
@@ -154,12 +158,10 @@ main {
 
 .main-news {
   padding: 30px 30px;
-  width: 1334px;
   background-color: white;
-  display: flex;
 }
 
-.main-news > div > h2 {
+.container-fluid > .row > div > h2 {
   color: rgba(3,3,3,.4);
   font: bold 16px/16px "Roboto Condensed",sans-serif;
   text-transform: uppercase;
@@ -402,9 +404,12 @@ main {
   padding: 8px 15px 9px;
   background-color: rgba(255,255,255,.9);
 }
-
 .newsletter {
   width: 334px;
+}
+
+.float-right {
+  float: right;
 }
 
 @media (min-width: 801px) {
@@ -416,6 +421,8 @@ main {
     padding-left: 15px;
     padding-right: 15px;
   }
+
+
 }
 
 @media (max-width: 760px) {
@@ -424,10 +431,31 @@ main {
   }
 }
 
+@media (min-width: 500px) and (max-width: 799px) {
+  body {
+    background-color: white;
+  }
+
+  .third-col-mobile {
+    position: absolute;
+    right: 0;
+    top: 3720px;
+  }
+}
+
+@media (min-width: 319px) and (max-width: 500px) {
+  .main-news  {
+    display: block;
+  }
+}
 @media (min-width: 319px) and (max-width: 800px) {
 
-  .main-news {
-    display: block;
+  main {
+    width: 100%;
+  }
+
+  .top-margin {
+    margin-top: 15px;
   }
 
   .first-col-mobile {
