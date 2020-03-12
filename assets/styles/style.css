@@ -27,10 +27,10 @@ h2 {
   padding: 1.25rem 0;
 }
 
-.magazine-content > .card-body > .card-text,
+.magazine-content > .card-body > a,
 h5 {
   margin-bottom: 20px;
-  font: bold 19px/19px "Roboto Condensed",sans-serif;
+  font: bold 16px/16px "Roboto Condensed",sans-serif !important;
   text-transform: uppercase;
   color: black;
 }
@@ -282,6 +282,10 @@ h5 {
   background-image: url("https://d.newsweek.com/en/full/1572460/march-13-2020.jpg?w=360&h=480&q=90&f=ad8bcd416008653896e9439fe96e4c47");
 }
 
+.main-news-featured-image-editor {
+  background-image: url("https://d.newsweek.com/en/full/1573287/cerro-tololo-inter-american-observatory.jpg?w=397&h=295&f=2385ceb75fb2f8bba905327ccba09545");
+}
+
 .main-news-featured-image,
 .main-news-featured-image-2,
 .main-news-featured-image-3,
@@ -294,7 +298,8 @@ h5 {
 .main-news-featured-image-top,
 .main-news-featured-image-latest-1,
 .main-news-featured-image-latest-2,
-.main-news-featured-image-magazine {
+.main-news-featured-image-magazine,
+.main-news-featured-image-editor {
   background-position: center;
   background-size: cover;
 }
