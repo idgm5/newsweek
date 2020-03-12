@@ -411,6 +411,11 @@ main {
   .mobile {
     display: none;
   }
+
+  .second-col-desktop {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 @media (max-width: 760px) {
