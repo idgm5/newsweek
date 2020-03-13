@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Hosted on GitHack](https://rawcdn.githack.com/ghamtre/newsweek/da10aef9915e36d0aef3b19b1b3d2fbc6ccfdee4/index.html)
+[Hosted on GitHack](https://rawcdn.githack.com/ghamtre/newsweek/d224e9fb281a75a66f459a83cb59840349f26bbf/index.html)
 
 ## Created by
 
