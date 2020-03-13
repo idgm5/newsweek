@@ -168,6 +168,10 @@ h5 {
   color: white;
 }
 
+.navbar-nav > li > a:hover {
+  color: red !important;
+}
+
 .navbar-col-subscribe > .row > a:last-child {
   text-transform: uppercase;
   display: inline-block;
@@ -190,10 +194,6 @@ h5 {
 
 .navbar-cateogires-item {
   padding: 0 4px;
-}
-
-.navbar-nav > li > a:hover {
-  color: red !important;
 }
 
 .navbar-cateogires-item:not(:last-child) {
