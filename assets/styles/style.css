@@ -467,6 +467,22 @@ h5 {
   float: right;
 }
 
+.span-slideshow {
+  width: 70px;
+  height: 52px;
+  display: block;
+  position: absolute;
+  top: 0;
+  margin-top: 211px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #e9212e;
+}
+
 @media (min-width: 801px) {
   .mobile {
     display: none;
@@ -495,6 +511,10 @@ h5 {
     position: absolute;
     right: 0;
     top: 3720px;
+  }
+
+  .span-slideshow {
+    margin-top: 40%;
   }
 }
 
