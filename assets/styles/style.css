@@ -111,18 +111,18 @@ h5 {
   justify-content: center;
 }
 
-.more-stories-text > div > p {
-  font-size: 15px;
-  line-height: 20px;
-  color: #333;
-}
-
 .debate-profile-container > p {
   font-size: 14px;
   line-height: 21px;
   color: #333;
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.more-stories-text > div > p {
+  font-size: 15px;
+  line-height: 20px;
+  color: #333;
 }
 
 .navbar-col-date .row p {
@@ -308,6 +308,7 @@ a > i {
   background-image: url("https://d.newsweek.com/en/full/1573108/north-korea-coronavirus-covid-19-disease.jpg?w=591&h=364&f=7e5637ca337c31fa3518a6dbcae2bff0");
   background-position: center;
   background-size: cover;
+  height: 304px;
 }
 
 .main-news-featured-image-latest-1 {
@@ -341,10 +342,6 @@ a > i {
 .main-news-featured-image-editor {
   background-position: center;
   background-size: cover;
-}
-
-.main-news-featured-image-top {
-  height: 304px;
 }
 
 .span-image-top {
