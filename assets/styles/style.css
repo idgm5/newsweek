@@ -192,6 +192,10 @@ h5 {
   padding: 0 4px;
 }
 
+.navbar-nav > li > a:hover {
+  color: red !important;
+}
+
 .navbar-cateogires-item:not(:last-child) {
   border-right: 1px solid #c8c7c6;
 }
@@ -613,7 +617,7 @@ footer > .container-fluid {
   width: 100%;
 }
 
-@media (min-width: 801px) {
+@media (min-width: 1201px) {
   .mobile {
     display: none;
   }
@@ -624,14 +628,14 @@ footer > .container-fluid {
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 499px) {
   .navbar-col-date .row > a > span,
   .navbar-col-subscribe .row > a > span {
     display: none;
   }
 }
 
-@media (min-width: 500px) and (max-width: 799px) {
+@media (min-width: 500px) and (max-width: 1200px) {
   body {
     background-color: white;
   }
@@ -653,7 +657,7 @@ footer > .container-fluid {
   }
 }
 
-@media (min-width: 319px) and (max-width: 800px) {
+@media (min-width: 319px) and (max-width: 1200px) {
   .signup-content {
     text-align: center;
   }
@@ -742,7 +746,7 @@ footer > .container-fluid {
   }
 }
 
-@media (min-width: 768px) and (max-width: 800px) {
+@media (min-width: 768px) and (max-width: 1200px) {
   .desktop {
     display: none;
   }
