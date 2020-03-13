@@ -15,6 +15,10 @@ main {
   width: 1334px;
 }
 
+h3 {
+  display: none;
+}
+
 h2 {
   text-align: center;
   margin-bottom: 20px;
