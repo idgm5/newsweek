@@ -1,5 +1,5 @@
 body {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,11 +24,27 @@ h2 {
   align-items: center;
 }
 
-.magazine-content>.card-body {
+.magazine-content > .card-body {
   padding: 1.25rem 0;
 }
 
-.magazine-content>.card-body>a,
+.more-stories-text > div > a {
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.footer-list > li > a {
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.magazine-content > .card-body > a,
 h5 {
   margin-bottom: 20px;
   font: bold 16px/16px "Roboto Condensed", sans-serif !important;
@@ -69,7 +85,7 @@ h5 {
 .navbar-container {
   display: flex;
   justify-content: center;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 
 .navbar {
@@ -93,6 +109,20 @@ h5 {
 
 .navbar-col-date .row {
   justify-content: center;
+}
+
+.more-stories-text > div > p {
+  font-size: 15px;
+  line-height: 20px;
+  color: #333;
+}
+
+.debate-profile-container > p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #333;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar-col-date .row p {
@@ -159,7 +189,7 @@ h5 {
 }
 
 .navbar-cateogires-item:not(:last-child) {
-  border-right: 1px solid #C8C7C6;
+  border-right: 1px solid #c8c7c6;
 }
 
 .navbar-categories-link {
@@ -184,7 +214,13 @@ h5 {
   line-height: 1.5;
   color: #495057;
   border: 1px solid transparent;
-  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+a > i {
+  font-size: 25px;
+  color: rgb(102, 102, 102);
+  padding: 0 5px;
 }
 
 .navbar-categories > .form-inline > i {
@@ -209,7 +245,7 @@ h5 {
 }
 
 .container-fluid > .row > div > h2 {
-  color: rgba(3, 3, 3, .4);
+  color: rgba(3, 3, 3, 0.4);
   font: bold 16px/16px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   padding-bottom: 11px;
@@ -270,6 +306,8 @@ h5 {
 
 .main-news-featured-image-top {
   background-image: url("https://d.newsweek.com/en/full/1573108/north-korea-coronavirus-covid-19-disease.jpg?w=591&h=364&f=7e5637ca337c31fa3518a6dbcae2bff0");
+  background-position: center;
+  background-size: cover;
 }
 
 .main-news-featured-image-latest-1 {
@@ -297,7 +335,6 @@ h5 {
 .main-news-featured-image-7,
 .main-news-featured-image-8,
 .main-news-featured-image-9,
-.main-news-featured-image-top,
 .main-news-featured-image-latest-1,
 .main-news-featured-image-latest-2,
 .main-news-featured-image-magazine,
@@ -320,7 +357,7 @@ h5 {
   color: #f72210;
   text-transform: uppercase;
   padding: 8px 15px 9px;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .main-news-featured-sponsor {
@@ -333,7 +370,7 @@ h5 {
 }
 
 .main-news-culture {
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
 .main-news-culture-text > .card-body > .card-title {
@@ -342,7 +379,7 @@ h5 {
 
 .main-news-culture-text > .card-body > .card-text {
   font: 15px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
-  color: rgba(39, 39, 39, .5);
+  color: rgba(39, 39, 39, 0.5);
   margin-bottom: 10px;
 }
 
@@ -351,26 +388,11 @@ h5 {
 }
 
 .card-more-stories {
-  border-color: transparent
+  border-color: transparent;
 }
 
 .more-stories-text > div {
   padding: 0 10px;
-}
-
-.more-stories-text > div > a {
-  text-decoration: none;
-  color: black;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 17px;
-  line-height: 20px;
-  font-weight: bold;
-}
-
-.more-stories-text > div > p {
-  font-size: 15px;
-  line-height: 20px;
-  color: #333;
 }
 
 .border-opinion {
@@ -427,14 +449,6 @@ h5 {
   justify-content: space-between;
 }
 
-.debate-profile-container > p {
-  font-size: 14px;
-  line-height: 21px;
-  color: #333;
-  text-transform: uppercase;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .vs {
   width: 40px;
   height: 40px;
@@ -460,7 +474,7 @@ h5 {
   color: #3581f4;
   text-transform: uppercase;
   padding: 8px 15px 9px;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .float-right {
@@ -506,7 +520,7 @@ h5 {
 
 .subscribe-section-content {
   width: 800px;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 
 .subscribe-section-image {
@@ -538,12 +552,6 @@ h5 {
   text-transform: uppercase;
   background-color: #f72210;
   margin-bottom: 0;
-}
-
-a > i {
-  font-size: 25px;
-  color: rgb(102, 102, 102);
-  padding: 0 5px;
 }
 
 footer {
@@ -596,15 +604,8 @@ footer > .container-fluid {
 
 .footer-list > li:not(:last-child) {
   border-right: 1px solid lightgray;
-  padding: 0px 5px;
+  padding: 0 5px;
   height: 20px;
-}
-
-.footer-list > li > a {
-  text-decoration: none;
-  color: rgb(102, 102, 102);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
 }
 
 .footer-row {
@@ -623,7 +624,8 @@ footer > .container-fluid {
 }
 
 @media (max-width: 760px) {
-  .navbar-col-date .row > a > span, .navbar-col-subscribe .row>a>span {
+  .navbar-col-date .row > a > span,
+  .navbar-col-subscribe .row > a > span {
     display: none;
   }
 }
@@ -662,7 +664,7 @@ footer > .container-fluid {
 
   .subscribe-section-content {
     width: 100%;
-    background-color: #F4F4F4;
+    background-color: #f4f4f4;
     text-align: center;
   }
 
@@ -729,7 +731,7 @@ footer > .container-fluid {
     line-height: 1;
     background-color: transparent;
     border: 0 solid transparent;
-    border-radius: .25rem;
+    border-radius: 0.25rem;
     padding: 0;
   }
 
@@ -756,7 +758,7 @@ footer > .container-fluid {
   }
 
   .navbar-col-subscribe .row {
-    letter-spacing: 0px;
+    letter-spacing: 0;
     width: 100%;
     justify-content: flex-end;
   }
@@ -767,7 +769,7 @@ footer > .container-fluid {
 
   .navbar-col-subscribe .row > a:last-child {
     padding: 6px 10px;
-    margin-left: 0px;
+    margin-left: 0;
     margin-right: 10px;
   }
 
