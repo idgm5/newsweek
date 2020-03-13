@@ -374,6 +374,20 @@ a > i {
   margin: 0 10px;
 }
 
+.card-culture-title {
+  font-size: 20px !important;
+  line-height: 22px !important;
+  font-family: Lora, serif !important;
+  color: rgba(39, 39, 39 !important);
+}
+
+.card-culture-text {
+  font-size: 15px;
+  line-height: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgba(39, 39, 39, 0.5);
+}
+
 .main-news-culture {
   margin-bottom: 10px;
 }
