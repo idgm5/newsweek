@@ -539,6 +539,35 @@ h5 {
   margin-bottom: 0;
 }
 
+a > i {
+  font-size: 25px;
+  color: rgb(102, 102, 102);
+  padding: 0 5px;
+}
+
+footer {
+  width: 1334px;
+  background: white;
+}
+
+.footer-p {
+  margin-left: 1rem;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.logo-footer {
+  width: 40%;
+}
+
+.logo-footer-image {
+  max-width: 100%;
+}
+
+.social-icons {
+  float: right;
+}
+
 @media (min-width: 801px) {
   .mobile {
     display: none;
